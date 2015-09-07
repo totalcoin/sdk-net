@@ -13,10 +13,10 @@ namespace TotalCoin
 
 		#region Private fields
 
-        private const string AuthorizeEndpoint = "https://api.totalcoin.com/ar-test/Security/";
-        private const string CheckoutEndpoint = "https://api.totalcoin.com/ar-test/Checkout/";
-        private const string MerchantEndpoint = "https://api.totalcoin.com/ar-test/Merchant/";
-        private const string IpnEndpoint = "https://api.totalcoin.com/ar-test/Ipn/";
+        private const string AuthorizeEndpoint = "https://api.totalcoin.com/ar/Security/";
+        private const string CheckoutEndpoint = "https://api.totalcoin.com/ar/Checkout/";
+        private const string MerchantEndpoint = "https://api.totalcoin.com/ar/Merchant";
+        private const string IpnEndpoint = "https://api.totalcoin.com/ar/Ipn/";
 
 		private string _givenToken;
         private UserCredentials userCredentials;
